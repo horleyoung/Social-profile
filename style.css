@@ -1,0 +1,76 @@
+body {
+    background-color:  hsl(0, 0%, 8%);
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: white;
+}
+.mainbox {
+    width: 22%;
+    height: 78vh;
+    background-color: hsl(0, 0%, 12%);
+    margin: 70px auto;
+    padding: auto 0;
+    border-radius: 10px;
+    text-align: center;
+} 
+.circle {
+    position: relative;
+    top: 20px;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background: url("./images/avatar-jessica.jpeg") no-repeat;
+    background-size: contain;
+}
+h2 {
+    position: relative;
+    top: 30px;
+    font-weight: 700;
+}
+h5 {
+    color: hsl(75, 94%, 57%);
+    position: relative;
+    top: 30px;
+    font-weight: 600;
+}
+h6 {
+    position: relative;
+    top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+ul {
+    width: 240px;
+    list-style-type: none;
+    padding: 5% 5.8%;
+}
+ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+ul li {
+    border: none;
+    border-radius: 6px;
+    padding: .6em;
+    margin: 11px 0;
+    gap: 2em;
+    background-color: hsl(0, 0%, 20%);
+}
+@media screen and (max-width: 475px) {
+    body {
+        margin: 0.5rem;
+        text-align: center;
+    }
+    .mainbox{
+        width: 70%;
+        height: 72vh;
+    }
+    ul {
+        width: 210px;
+        text-align: center;
+        padding: 9% 7%;
+    }
+
+}
