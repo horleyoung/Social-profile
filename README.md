@@ -30,7 +30,7 @@ https://photos.google.com/search/_tra_/photo/AF1QipMopSHB7ziLZbA61bmup4Ss9BSQ7yB
 ### Links
 
 - Solution URL: https://github.com/horleyoung/Social-profile.git
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://horleyoung.github.io/Social-profile/
 
 ## My process
 
