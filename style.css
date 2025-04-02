@@ -6,18 +6,22 @@ body {
     color: white;
 }
 .mainbox {
-    width: 22%;
+    width: 20rem;
+    min-width: 300px;
+    max-width: 600px;
     height: 78vh;
     background-color: hsl(0, 0%, 12%);
     margin: 70px auto;
-    padding: auto 0;
+    padding: 1rem 0.2rem;
     border-radius: 10px;
     text-align: center;
 } 
+.circle , ul {
+    margin: auto;
+}
 .circle {
     position: relative;
     top: 20px;
-    margin: auto;
     width: 60px;
     height: 60px;
     border-radius: 50px;
@@ -44,7 +48,8 @@ h6 {
 ul {
     width: 240px;
     list-style-type: none;
-    padding: 5% 5.8%;
+    padding: 2% 8%;
+    text-align: center;
 }
 ul li:hover {
     background-color: hsl(75, 94%, 57%);
@@ -55,22 +60,5 @@ ul li {
     border-radius: 6px;
     padding: .6em;
     margin: 11px 0;
-    gap: 2em;
     background-color: hsl(0, 0%, 20%);
-}
-@media screen and (max-width: 475px) {
-    body {
-        margin: 0.5rem;
-        text-align: center;
-    }
-    .mainbox{
-        width: 70%;
-        height: 72vh;
-    }
-    ul {
-        width: 210px;
-        text-align: center;
-        padding: 9% 7%;
-    }
-
 }
