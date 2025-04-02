@@ -6,14 +6,11 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -38,8 +35,6 @@ https://photos.google.com/search/_tra_/photo/AF1QipMopSHB7ziLZbA61bmup4Ss9BSQ7yB
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ### What I learned
